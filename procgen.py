@@ -19,16 +19,8 @@ class CoupledGenerator(ClassicDevsCoupledModel):
         return res
 
     def selectSpecs(self):
-        # We must give priority to processor over generators such that 
-        # they can accept a new job at the same time as complete the 
-        # prvious one. 
-        # Other selection policy are totally arbitrary
-        # Given the combinatorics of this model, regexp are greatly helping
-        # Notice also each spec is tried in order such that any ambiguity
-        # is resolved by applying the first match. (Eg. the two forst rules
-        # match {'proc:0', 'proc'} so the first rule is chosen)
-        res = (\
-            ({'proc', 'gen'}, 'proc'),\
+        res = (
+            ({'proc', 'gen'}, 'proc'),      # Priority given to proc
             )
         return res
 

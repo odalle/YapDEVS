@@ -5,9 +5,9 @@ class CoupledGenerator(ClassicDevsCoupledModel):
 
     def subModelsSpecs(self):
         res = ( 
-            ('generator','Generator','gen',1,"3"),   # gen has period 3
-            ('processor','Processor','proc',1,"4")
-            )  # proc has processing time 4
+            ('generator','Generator','gen',1,"3"),      # gen has period 3
+            ('processor','Processor','proc',1,"4"),     # proc has processing time 4
+            )  
         return res
 
     def couplingsSpecs(self):

@@ -102,21 +102,3 @@ class TraceDict(dict):
         super().__setitem__(index,value)
 
 
-if __name__ == '__main__':
-    class FakeRc():
-       
-        def getTimeLast(self):
-            return 10.0
-
-        def getTimeNext(self):
-            return 12.0
-
-    frc = FakeRc()   
-
-        
-
-    setTraceFuncs(('truc',),'*',frc,9,23)
-    td = TraceDict('titi')
-
-    td['truc']='bidule'
-    print("td['truc']={}".format(td['truc']))

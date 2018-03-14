@@ -2,6 +2,14 @@
 
 # YapDEVS
 
+YapDEVS is Yet Another Python DEVS simulator.
+
+
+This module provides the elements for building Classic DEVS models
+(with ports) simulations. It is mostly meant for educational purpose
+and, therefore, should not be relied on for complex simulations.
+
+
 ## INSTALL
 
 This python module requires python version 3.4 or higher.
@@ -48,12 +56,7 @@ The simulation terminates when time specified as a parameter to the root coordin
 
 
 ## QUICK MANUAL
-YapDEVS is Yet Another Python DEVS simulator.
 
-
-This module provides the elements for building Classic DEVS models
-(with ports) simulations. It is mostly meant for educational purpose
-and, therefore, should not be relied on for complex simulations.
 
 According to the specification, Classic DEVS models can be defined 
 either as coupled or atomic models.

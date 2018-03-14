@@ -4,7 +4,7 @@
 
 ## INSTALL
 
-This pythion module requires python version 3.4 or higher.
+This python module requires python version 3.4 or higher.
 
 
 ## TRY IT
@@ -12,7 +12,7 @@ This pythion module requires python version 3.4 or higher.
 To provided example is composed of 3 Classic DEVS models:
 - a generator atomic model
 - a processor atomic model
-- a couped model ion whihc the generator is connected to the processor and the
+- a couped model on which the generator is connected to the processor and the
 output of the processor to the output of coupled model
 
 To try it, simply run the following shell command
@@ -148,7 +148,7 @@ with:
     - initparm : an initial parameter value (any type) passed to the 
     class constructor. 
 
-- `couolingsSpecs` : returns a sequence (list or tuple) of pairs
+- `couplingsSpecs` : returns a sequence (list or tuple) of pairs
 (src_spec, dst_spec) that defines the couplings of a coupled model.
 Couplings can be categorized in 3 kinds: External Input Couplings (EIC),
 External Output Couplings (EOC) and Internal Couplings (IC).

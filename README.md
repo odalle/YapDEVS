@@ -13,14 +13,14 @@ and, therefore, should not be relied on for complex simulations.
 ## INSTALL
 
 This python module requires python version 3.5 or higher.
-In case this version is not already installed and you do NOT have admin permissions, you can still install the latest version of python using [pyenv](https://github.com/pyenv/pyenv). For example as follows on Ubuntu (see also instructions on [pyenv](https://github.com/pyenv/pyenv) page):
+In case this version is not already installed and you do NOT have admin permissions, you can still install the latest version of python using [pyenv](https://github.com/pyenv/pyenv). For example as follows with shell `zsh` (see also instructions on [pyenv](https://github.com/pyenv/pyenv) page for other environments):
 
 ```
 $ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-$ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-$ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-$ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
-$ source ~/.bashrc
+$ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+$ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+$ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
+$ source ~/.zshrc
 ```
 
 

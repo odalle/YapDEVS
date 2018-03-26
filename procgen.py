@@ -28,7 +28,7 @@ class CoupledGenerator(ClassicDevsCoupledModel):
 if __name__ == "__main__":
     from classic_devs import ClassicDevsRootCoordinator
     
-    rc = ClassicDevsRootCoordinator(50.0,('procgen','CoupledGenerator','coupled',None))
+    rc = ClassicDevsRootCoordinator(10.0,('procgen','CoupledGenerator','coupled',None))
     setTraceFuncs('*','*',rc,9,20)
     rc.start()
 
